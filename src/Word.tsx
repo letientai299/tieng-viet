@@ -15,7 +15,7 @@ type WordProps = {
 //   });
 
 const Word = ({ word, size }: WordProps) => {
-  const fontSize = size === 'lg' ? '16rem' : size === 'md' ? '10rem' : '6rem';
+  const fontSize = size === 'lg' ? '12rem' : size === 'md' ? '8rem' : '6rem';
 
   const style: CSSProperties = {
     flexBasis: '100%',
